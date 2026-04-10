@@ -1,4 +1,5 @@
 import Image from "next/image";
+import { AvatarDropdown } from "@/components/AvatarDropdown";
 
 const amplifiers = [
   { name: "It's a Maker", image: "/images/its a maker.png" },
@@ -21,10 +22,11 @@ export default function Home() {
       {/* Header */}
       <header className="sticky top-0 z-10 flex items-center gap-3 px-6 py-4 bg-[var(--surface)]/90 backdrop-blur-md border-b border-white/5">
         <Image src="/images/itsamaker-logo.png" alt="dune" width={32} height={32} className="rounded-lg" />
-        <div>
+        <div className="flex-1">
           <h1 className="text-sm font-semibold tracking-wide">dune</h1>
           <p className="text-xs text-[var(--text-muted)]">gardenofthemind.io</p>
         </div>
+        <AvatarDropdown />
       </header>
 
       {/* Hero */}
