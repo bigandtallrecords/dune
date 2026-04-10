@@ -9,6 +9,10 @@ const amplifiers = [
   { name: "Lisan al Gaib III", image: "/images/lisan al gaib iii.png" },
   { name: "Lisan al Gaib IV", image: "/images/lisan al gaib iv.png" },
   { name: "Sihaya", image: "/images/Sihaya.png" },
+  { name: "Bene Gesserit", image: "/images/bene gesserit.png" },
+  { name: "Bene Gesserit II", image: "/images/bene gesserit ii.png" },
+  { name: "House Courrino", image: "/images/house courrino.png" },
+  { name: "The Voice", image: "/images/the voice.png" },
 ];
 
 export default function Home() {
