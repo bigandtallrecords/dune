@@ -60,6 +60,8 @@ export default function Home() {
           ))}
         </div>
       </section>
+
+      <footer className="pb-10 text-center text-2xl">🏜️</footer>
     </main>
   );
 }
